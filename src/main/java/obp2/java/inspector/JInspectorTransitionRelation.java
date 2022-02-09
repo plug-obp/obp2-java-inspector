@@ -46,7 +46,7 @@ public class JInspectorTransitionRelation
         object.add(new Pair('c',3));
         return Collections.singleton(
                 new JInspectorConfiguration(
-                        System.getSecurityManager()
+                        object
                 )
         );
     }
